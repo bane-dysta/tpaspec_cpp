@@ -102,8 +102,7 @@ $$
 对每个目标激发态 `f`，程序计算一个二阶张量：
 
 $$
-S_{ab}^{0\to f}(\omega_f)
-=
+S_{ab}^{0\to f}(\omega_f)=
 \sum_{n=1}^{N}
 \frac{
 \mu_{0n}^{a}\,\bar{\mu}_{nf}^{b}
@@ -139,8 +138,7 @@ $$
 
 $$
 \frac{
-\mu_{0f}^{a}(\mu_{ff}^{b}-\mu_{00}^{b})
-+
+\mu_{0f}^{a}(\mu_{ff}^{b}-\mu_{00}^{b})+
 \mu_{0f}^{b}(\mu_{ff}^{a}-\mu_{00}^{a})
 }
 {E_f-\omega_f-i\eta}
@@ -187,8 +185,7 @@ $$
 程序使用下面的转换形式：
 
 $$
-\sigma_{\mathrm{GM}}(E)
-=
+\sigma_{\mathrm{GM}}(E)=
 N_{\mathrm{factor}}
 \frac{\pi^3\alpha a_0^5}{c}
 \omega_f^2
