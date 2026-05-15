@@ -25,6 +25,8 @@ tpaspec mol.fch
 tpaspec mol.log
 ```
 
+> 注意：笔者对TPA是初学者，不能保证本程序实现的正确性。
+
 ## 编译
 
 需要支持 C++17 的编译器。
@@ -396,6 +398,3 @@ eta_sos: 例如 0.00 eV 或 0.05 eV
 ```
 
 其中 `delta_au` 比 `peak_sigma_GM` 更适合做方法比较，因为 `peak_sigma_GM` 会随展宽宽度改变。
-
-
-
