@@ -148,7 +148,7 @@ $$
 
 > 注意：不同文献和程序可能在 $S$ 的定义里放入额外的 $1/2$ 对称化因子。`tpaspec` 使用的是代码中这种 “full SOS tensor” 约定，并通过 `--n-factor` 控制后续 GM 转换的整体因子。和其他程序比较绝对值时，一定要检查这个约定，否则可能差一个 2 或 4 的倍数。
 
-### 4. 旋转平均 TPA strength
+### 3. 旋转平均 TPA strength
 
 得到张量 $S_ab$ 后，程序计算三个旋转不变量：
 
@@ -180,7 +180,7 @@ $$
 
 输出文件中的 `delta_au` 就是这个 $\delta$，单位为 atomic unit。
 
-### 5. 从 TPA strength 到 GM
+### 4. 从 TPA strength 到 GM
 
 程序使用下面的转换形式：
 
@@ -207,7 +207,7 @@ $$
 
 默认 $N_{\mathrm{factor}}=4$ 对应代码采用的 full SOS tensor convention 和常见 single-beam GM 转换写法。如果你要和其他程序或文献严格比较，必须确认它们使用的 `S` 定义、`delta` 定义、光场约定和 GM 转换因子是否相同。
 
-### 6. 谱线展宽
+### 5. 谱线展宽
 
 程序先对每个 final state 在共振位置 $\omega = E_f/2$ 计算一次 $S_{ab}$ 和 $\delta_f$，得到 stick spectrum；然后用归一化线形函数把 sticks 展宽成连续谱。
 
