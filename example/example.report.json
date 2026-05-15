@@ -1,0 +1,15 @@
+{
+  "sos": "/mnt/data/tpaspec_cpp/example.SOS.txt",
+  "nstates": 40,
+  "out_prefix": "/mnt/data/tpaspec_cpp/example",
+  "polarization": "linear",
+  "shape": "lorentzian",
+  "width_eV": 0.1,
+  "width_kind": "hwhm",
+  "eta_sos_eV": 0.02,
+  "n_factor": 4,
+  "x_axis": "nm",
+  "points": 1000,
+  "hartree_eV": 27.211386246,
+  "hc_eV_nm": 1239.84198433
+}

@@ -1,0 +1,7 @@
+Read SOS: "SOS.txt"
+States: 40; final states used: 40
+Wrote: "tpaspec_cpp/example.sticks.csv"
+Wrote: "tpaspec_cpp/example.curve.csv"
+Wrote: "tpaspec_cpp/example.report.json"
+Wrote: tpaspec_cpp/example.gnuplot
+Max peak GM: state 11 = 21.659953 GM (lorentzian, width=0.1 eV hwhm, N=4)
